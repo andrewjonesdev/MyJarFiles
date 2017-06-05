@@ -10,6 +10,7 @@ public class JarTest {
 		System.out.println(UtilityDate.displayCalendar(11, 2010));
 		System.out.println(UtilityDate.getLastDayOfMonth(2, 1996));
 		System.out.println(UtilityDate.isLeapYear(1992));
+		System.out.println(UtilityDate.toString(2, 29, 1996, "/"));
 		System.out.println(UtilityNumberFormat.toCurrency(19.9752));
 		System.out.println(UtilityNumberFormat.toDecimal(3.4858732145831458, 5));
 		System.out.println(UtilityNumberFormat.toPercent(.0075));
